@@ -1,0 +1,32 @@
+$bg-color: #1e63d490;
+$border-color: #1e63d4;
+
+.wrapper {
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ // position: relative;
+ // top: -20px;
+}
+
+.content {
+ background-color: $bg-color;
+ width: 100%;
+ max-width: 1200px;
+ margin: 0 auto;
+ border: 2px solid $bg-color;
+ border-radius: 10px;
+ padding: 0.25rem 2.5rem;
+ padding-bottom: 2rem;
+ h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+ }
+}
+
+// .table {
+// }

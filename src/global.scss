@@ -1,25 +1,21 @@
+$color-primary: #be8238;
+$color-secondary: #b56a1f;
+$color-text: #fff;
+
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
 }
 
-html {
- font-size: 16px;
-}
-
 body {
- font-family: Arial, sans-serif;
+ font-family: "Roboto", sans-serif;
  font-size: 1rem;
  line-height: 1.5;
  min-height: 100vh;
- background: rgb(190, 130, 56);
- background: linear-gradient(
-  332deg,
-  rgba(190, 130, 56, 1) 0%,
-  rgba(0, 0, 0, 1) 100%
- );
- color: #fff;
+ background: $color-primary;
+ background: linear-gradient(332deg, $color-primary 0%, $color-secondary 100%);
+ color: $color-text;
 }
 
 a,
