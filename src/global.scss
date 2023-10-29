@@ -1,0 +1,31 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html {
+ font-size: 16px;
+}
+
+body {
+ font-family: Arial, sans-serif;
+ font-size: 1rem;
+ line-height: 1.5;
+ min-height: 100vh;
+ background: rgb(190, 130, 56);
+ background: linear-gradient(
+  332deg,
+  rgba(190, 130, 56, 1) 0%,
+  rgba(0, 0, 0, 1) 100%
+ );
+ color: #fff;
+}
+
+a,
+li {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ text-decoration: none;
+}
